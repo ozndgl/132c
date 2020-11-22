@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">132c</string>
+    <string-array name="numbers">
+        <item>780</item>
+        <item>781</item>
+        <item>782</item>
+        <item>783</item>
+        <item>784</item>
+        <item>785</item>
+        <item>786</item>
+        <item>787</item>
+        <item>788</item>
+        <item>789</item>
+    </string-array>
+</resources>
