@@ -23,103 +23,12 @@ public class MainActivity extends AppCompatActivity {
     int aracKod;
     String haftaUcDeger;
     int aracSiraDeger;
-    //haftaiçi
-    String[] haftaIciSultanBir = new String[]{"sultanbeyli kalkışı", "5,30", "7,52", "11,12", "14,12", "17,08", "20,35"};
-    String[] haftaIciKartalBir = new String[]{"kartal kalkışı", "6,30", "9,25", "12,37", "15,35", "18,40", "21,55"};
-
-    String[] haftaIciSultanIki = new String[]{"sultanbeyli kalkışı", "5,50", "08,07", "11,27", "14,29", "17,28", "21,05"};
-    String[] haftaIciKartalIki = new String[]{"kartal kalkışı", "06,50", "9,40", "12,57", "15,50", "18,55", "22,20"};
-
-    String[] haftaIciSultanUc = new String[]{"sultanbeyli kalkışı", "06,05", "08,27", "11,45", "14,53", "17,50"};
-    String[] haftaIciKartalUc = new String[]{"kartal kalkışı", "07,10", "10,00", "13,12", "16,08", "19,15"};
-
-    String[] haftaIciSultanDort = new String[]{"sultanbeyli kalkışı", "06,18", "08,55", "11,58", "15,08", "18,15"};
-    String[] haftaIciKartalDort = new String[]{"kartal kalkışı", "07,30", "10,20", "13,35", "16,27", "19,35"};
-
-    String[] haftaIciSultanBes = new String[]{"sultanbeyli kalkışı", "06,32", "09,17", "12,15", "15,25", "18,30"};
-    String[] haftaIciKartalBes = new String[]{"kartal kalkışı", "07,50", "10,35", "13,50", "16,45", "19,55"};
-
-    String[] haftaIciSultanAlti = new String[]{"sultanbeyli kalkışı", "06,45", "09,35", "12,30", "15,40", "18,50"};
-    String[] haftaIciKartalAlti = new String[]{"kartal kalkışı", "08,07", "10,53", "14,10", "17,05", "20,15"};
-
-    String[] haftaIciSultanYedi = new String[]{"sultanbeyli kalkışı", "06,58", "09,53", "12,52", "15,55", "19,15"};
-    String[] haftaIciKartalYedi = new String[]{"kartal kalkışı", "08,23", "11,10", "14,30", "17,23", "20,40"};
-
-    String[] haftaIciSultanSekiz = new String[]{"sultanbeyli kalkışı", "07,12", "10,15", "13,10", "16,10", "19,35"};
-    String[] haftaIciKartalSekiz = new String[]{"kartal kalkışı", "8,40", "11,32", "14,48", "17,40", "21,00"};
-
-    String[] haftaIciSultanDokuz = new String[]{"sultanbeyli kalkışı", "7,25", "10,35", "13,35", "16,28", "19,50"};
-    String[] haftaIciKartalDokuz = new String[]{"kartal kalkışı", "8,55", "11,55", "15,02", "18,00", "21,20"};
-
-    String[] haftaIciSultanOn = new String[]{"sultanbeyli kalkışı", "7,40", "10,52", "13,55", "16,48", "20,08"};
-    String[] haftaIciKartalOn = new String[]{"kartal kalkışı", "9,10", "12,15", "15,17", "18,20", "21,38"};
-    ////cumartesi
-    String[] cumartesiSultanBir = new String[]{"sultanbeyli kalkışı", "5,40", "8,35", "11,43", "14,57", "18,10"};
-    String[] cumartesiKartalBir = new String[]{"kartal kalkışı", "06,35", "9,55", "13,10", "16,30", "19,30"};
-
-    String[] cumartesiSultanIki = new String[]{"sultanbeyli kalkışı", "06,05", "08,50", "12,07", "15,17", "18,30"};
-    String[] cumartesiKartalIki = new String[]{"kartal kalkışı", "07,05", "10,10", "13,30", "16,50", "19,50"};
-
-    String[] cumartesiSultanUc = new String[]{"sultanbeyli kalkışı", "06,25", "09,10", "12,22", "15,35", "18,55"};
-    String[] cumartesiKartalUc = new String[]{"kartal kalkışı", "07,25", "10,30", "13,50", "17,10", "20,10"};
-
-    String[] cumartesiSultanDort = new String[]{"sultanbeyli kalkışı", "06,45", "09,34", "12,42", "15,52", "19,15"};
-    String[] cumartesiKartalDort = new String[]{"kartal kalkışı", "07,50", "10,55", "14,05", "17,30", "20,30"};
-
-    String[] cumartesiSultanBes = new String[]{"sultanbeyli kalkışı", "07,05", "09,55", "13,05", "16,08", "19,33"};
-    String[] cumartesiKartalBes = new String[]{"kartal kalkışı", "08,15", "11,15", "14,20", "17,47", "20,50"};
-
-    String[] cumartesiSultanAlti = new String[]{"sultanbeyli kalkışı", "07,20", "10,15", "13,24", "16,30", "19,53"};
-    String[] cumartesiKartalAlti = new String[]{"kartal kalkışı", "6,35", "11,35", "14,40", "18,02", "21,05"};
-
-    String[] cumartesiSultanYedi = new String[]{"sultanbeyli kalkışı", "07,35", "10,35", "13,42", "16,45", "20,13"};
-    String[] cumartesiKartalYedi = new String[]{"kartal kalkışı", "08,55", "11,55", "15,05", "18,17", "21,20"};
-
-    String[] cumartesiSultanSekiz = new String[]{"sultanbeyli kalkışı", "07,50", "10,55", "13,57", "17,03", "20,30"};
-    String[] cumartesiKartalSekiz = new String[]{"kartal kalkışı", "09,10", "12,15", "15,30", "18,30", "21,40"};
-
-    String[] cumartesiSultanDokuz = new String[]{"sultanbeyli kalkışı", "08,05", "11,10", "14,20", "17,25", "20,50"};
-    String[] cumartesiKartalDokuz = new String[]{"kartal kalkışı", "09,25", "12,35", "15,50", "18,45", "22,00"};
-
-    String[] cumartesiSultanOn = new String[]{"sultanbeyli kalkışı", "08,20", "11,24", "14,40", "17,45", "21,10"};
-    String[] cumartesiKartalOn = new String[]{"kartal kalkışı", "09,40", "12,50", "16,10", "19,10", "22,25"};
-    ////pazar
-    String[] pazarSultanBir = new String[]{"sultanbeyli kalkışı", "05,40", "08,37", "11,50", "14,55", "18,18"};
-    String[] pazarKartalBir = new String[]{"kartal kalkışı", "06,40", "10,05", "13,10", "16,35", "19,45"};
-
-    String[] pazarSultanIki = new String[]{"sultanbeyli kalkışı", "05,58", "08,53", "12,07", "15,20", "18,38"};
-    String[] pazarKartalIki = new String[]{"kartal kalkışı", "07,00", "10,20", "13,30", "16,50", "20,05"};
-
-    String[] pazarSultanUc = new String[]{"sultanbeyli kalkışı", "06,18", "09,07", "12,30", "15,42", "18,58"};
-    String[] pazarKartalUc = new String[]{"kartal kalkışı", "07,25", "10,45", "13,50", "17,05", "20,20"};
-
-    String[] pazarSultanDort = new String[]{"sultanbeyli kalkışı", "06,38", "09,30", "12,46", "16,00", "19,18"};
-    String[] pazarKartalDort = new String[]{"kartal kalkışı", "07,50", "11,02", "14,10", "17,25", "20,40"};
-
-    String[] pazarSultanBes = new String[]{"sultanbeyli kalkışı", "06,58", "09,55", "13,03", "16,18", "19,38"};
-    String[] pazarKartalBes = new String[]{"kartal kalkışı", "08,15", "11,18", "14,30", "17,40", "21,00"};
-
-    String[] pazarSultanAlti = new String[]{"sultanbeyli kalkışı", "07,18", "10,13", "13,25", "16,37", "19,58"};
-    String[] pazarKartalAlti = new String[]{"kartal kalkışı", "06,35", "11,32", "14,55", "18,00", "21,20"};
-
-    String[] pazarSultanYedi = new String[]{"sultanbeyli kalkışı", "07,33", "10,36", "13,40", "16,58", "20,18"};
-    String[] pazarKartalYedi = new String[]{"kartal kalkışı", "08,55", "11,55", "15,15", "18,20", "21,38"};
-
-    String[] pazarSultanSekiz = new String[]{"sultanbeyli kalkışı", "07,48", "10,55", "13,55", "17,20", "20,38"};
-    String[] pazarKartalSekiz = new String[]{"kartal kalkışı", "09,10", "12,15", "15,35", "18,40", "21,58"};
-
-    String[] pazarSultanDokuz = new String[]{"sultanbeyli kalkışı", "08,03", "11,11", "14,13", "17,43", "20,58"};
-    String[] pazarKartalDokuz = new String[]{"kartal kalkışı", "09,30", "12,30", "15,55", "19,05", "22,20"};
-
-    String[] pazarSultanOn = new String[]{"sultanbeyli kalkışı", "08,18", "11,35", "14,35", "18,00", "21,15"};
-    String[] pazarKartalOn = new String[]{"kartal kalkışı", "09,45", "12,50", "16,15", "19,25", "22,35"};
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
 
         Calendar haftalar = Calendar.getInstance();
         int haftagunal = (Calendar.DAY_OF_WEEK);
@@ -166,7 +75,7 @@ public class MainActivity extends AppCompatActivity {
             int deger = (yilHaneİnt + 10) - 9;
             int degerLenght = String.valueOf(deger).length();
             String degerSonRakam = String.valueOf(deger).substring(degerLenght - 1);
-            System.out.println("çalıştığı sıra: " + deger + "uzunluk. " + degerLenght);
+            System.out.println("çalıştığı sıra: " + deger + " uzunluk: " + degerLenght);
             System.out.println("değer son rakam: " + degerSonRakam);
             aracSiraDeger = Integer.parseInt(degerSonRakam);
         } else if (aracKod == 783) {
@@ -285,10 +194,10 @@ public class MainActivity extends AppCompatActivity {
                     System.out.println("8. sıra");
                     siralar.setText("bugün 8. araba");
                     ListView listsol8 = (ListView) findViewById(R.id.listSol);
-                    ArrayAdapter<String> solAdaptor8 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, haftaIciSultanSekiz);
+                    ArrayAdapter<String> solAdaptor8 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, saatler.haftaIciSultanSekiz);
                     listsol8.setAdapter(solAdaptor8);
                     ListView listsag8 = (ListView) findViewById(R.id.listSag);
-                    ArrayAdapter<String> sagAdaptor8 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, haftaIciKartalSekiz);
+                    ArrayAdapter<String> sagAdaptor8 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, saatler.haftaIciKartalSekiz);
                     listsag8.setAdapter(sagAdaptor8);
                     break;
 
@@ -296,10 +205,10 @@ public class MainActivity extends AppCompatActivity {
                     System.out.println("9. sıra");
                     siralar.setText("bugün 9. araba");
                     ListView listsol9 = (ListView) findViewById(R.id.listSol);
-                    ArrayAdapter<String> solAdaptor9 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, haftaIciSultanDokuz);
+                    ArrayAdapter<String> solAdaptor9 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, saatler.haftaIciSultanDokuz);
                     listsol9.setAdapter(solAdaptor9);
                     ListView listsag9 = (ListView) findViewById(R.id.listSag);
-                    ArrayAdapter<String> sagAdaptor9 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, haftaIciKartalDokuz);
+                    ArrayAdapter<String> sagAdaptor9 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, saatler.haftaIciKartalDokuz);
                     listsag9.setAdapter(sagAdaptor9);
                     break;
 
@@ -307,10 +216,10 @@ public class MainActivity extends AppCompatActivity {
                     System.out.println("10. sıra");
                     siralar.setText("bugün 10. araba");
                     ListView listsol10 = (ListView) findViewById(R.id.listSol);
-                    ArrayAdapter<String> solAdaptor10 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, haftaIciSultanOn);
+                    ArrayAdapter<String> solAdaptor10 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, saatler.haftaIciSultanOn);
                     listsol10.setAdapter(solAdaptor10);
                     ListView listsag10 = (ListView) findViewById(R.id.listSag);
-                    ArrayAdapter<String> sagAdaptor10 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, haftaIciKartalOn);
+                    ArrayAdapter<String> sagAdaptor10 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, saatler.haftaIciKartalOn);
                     listsag10.setAdapter(sagAdaptor10);
                     break;
 
@@ -318,10 +227,10 @@ public class MainActivity extends AppCompatActivity {
                     System.out.println("1. sıra");
                     siralar.setText("bugün 1. araba");
                     ListView listsol1 = (ListView) findViewById(R.id.listSol);
-                    ArrayAdapter<String> solAdaptor1 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, haftaIciSultanBir);
+                    ArrayAdapter<String> solAdaptor1 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, saatler.haftaIciSultanBir);
                     listsol1.setAdapter(solAdaptor1);
                     ListView listsag1 = (ListView) findViewById(R.id.listSag);
-                    ArrayAdapter<String> sagAdaptor1 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, haftaIciKartalBir);
+                    ArrayAdapter<String> sagAdaptor1 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, saatler.haftaIciKartalBir);
                     listsag1.setAdapter(sagAdaptor1);
                     break;
 
@@ -329,10 +238,10 @@ public class MainActivity extends AppCompatActivity {
                     System.out.println("2. sıra");
                     siralar.setText("bugün 2. araba");
                     ListView listsol2 = (ListView) findViewById(R.id.listSol);
-                    ArrayAdapter<String> solAdaptor2 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, haftaIciSultanIki);
+                    ArrayAdapter<String> solAdaptor2 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, saatler.haftaIciSultanIki);
                     listsol2.setAdapter(solAdaptor2);
                     ListView listsag2 = (ListView) findViewById(R.id.listSag);
-                    ArrayAdapter<String> sagAdaptor2 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, haftaIciKartalIki);
+                    ArrayAdapter<String> sagAdaptor2 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, saatler.haftaIciKartalIki);
                     listsag2.setAdapter(sagAdaptor2);
                     break;
 
@@ -340,10 +249,10 @@ public class MainActivity extends AppCompatActivity {
                     System.out.println("3. sıra");
                     siralar.setText("bugün 3. araba");
                     ListView listsol3 = (ListView) findViewById(R.id.listSol);
-                    ArrayAdapter<String> solAdaptor3 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, haftaIciSultanUc);
+                    ArrayAdapter<String> solAdaptor3 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, saatler.haftaIciSultanUc);
                     listsol3.setAdapter(solAdaptor3);
                     ListView listsag3 = (ListView) findViewById(R.id.listSag);
-                    ArrayAdapter<String> sagAdaptor3 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, haftaIciKartalUc);
+                    ArrayAdapter<String> sagAdaptor3 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, saatler.haftaIciKartalUc);
                     listsag3.setAdapter(sagAdaptor3);
                     break;
 
@@ -351,10 +260,10 @@ public class MainActivity extends AppCompatActivity {
                     System.out.println("4. sıra");
                     siralar.setText("bugün 4. araba");
                     ListView listsol4 = (ListView) findViewById(R.id.listSol);
-                    ArrayAdapter<String> solAdaptor4 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, haftaIciSultanDort);
+                    ArrayAdapter<String> solAdaptor4 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, saatler.haftaIciSultanDort);
                     listsol4.setAdapter(solAdaptor4);
                     ListView listsag4 = (ListView) findViewById(R.id.listSag);
-                    ArrayAdapter<String> sagAdaptor4 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, haftaIciKartalDort);
+                    ArrayAdapter<String> sagAdaptor4 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, saatler.haftaIciKartalDort);
                     listsag4.setAdapter(sagAdaptor4);
                     break;
 
@@ -362,10 +271,10 @@ public class MainActivity extends AppCompatActivity {
                     System.out.println("5. sıra");
                     siralar.setText("bugün 5. araba");
                     ListView listsol5 = (ListView) findViewById(R.id.listSol);
-                    ArrayAdapter<String> solAdaptor5 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, haftaIciSultanBes);
+                    ArrayAdapter<String> solAdaptor5 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, saatler.haftaIciSultanBes);
                     listsol5.setAdapter(solAdaptor5);
                     ListView listsag5 = (ListView) findViewById(R.id.listSag);
-                    ArrayAdapter<String> sagAdaptor5 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, haftaIciKartalBes);
+                    ArrayAdapter<String> sagAdaptor5 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, saatler.haftaIciKartalBes);
                     listsag5.setAdapter(sagAdaptor5);
                     break;
 
@@ -373,10 +282,10 @@ public class MainActivity extends AppCompatActivity {
                     System.out.println("6. sıra");
                     siralar.setText("bugün 6. araba");
                     ListView listsol6 = (ListView) findViewById(R.id.listSol);
-                    ArrayAdapter<String> solAdaptor6 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, haftaIciSultanAlti);
+                    ArrayAdapter<String> solAdaptor6 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, saatler.haftaIciSultanAlti);
                     listsol6.setAdapter(solAdaptor6);
                     ListView listsag6 = (ListView) findViewById(R.id.listSag);
-                    ArrayAdapter<String> sagAdaptor6 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, haftaIciKartalAlti);
+                    ArrayAdapter<String> sagAdaptor6 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, saatler.haftaIciKartalAlti);
                     listsag6.setAdapter(sagAdaptor6);
                     break;
 
@@ -384,10 +293,10 @@ public class MainActivity extends AppCompatActivity {
                     System.out.println("7. sıra");
                     siralar.setText("bugün 7. araba");
                     ListView listsol7 = (ListView) findViewById(R.id.listSol);
-                    ArrayAdapter<String> solAdaptor7 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, haftaIciSultanYedi);
+                    ArrayAdapter<String> solAdaptor7 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, saatler.haftaIciSultanYedi);
                     listsol7.setAdapter(solAdaptor7);
                     ListView listsag7 = (ListView) findViewById(R.id.listSag);
-                    ArrayAdapter<String> sagAdaptor7 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, haftaIciKartalYedi);
+                    ArrayAdapter<String> sagAdaptor7 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, saatler.haftaIciKartalYedi);
                     listsag7.setAdapter(sagAdaptor7);
                     break;
 
@@ -401,10 +310,10 @@ public class MainActivity extends AppCompatActivity {
                     System.out.println("8. sıra");
                     siralar.setText("bugün 8. araba");
                     ListView listsol8 = (ListView) findViewById(R.id.listSol);
-                    ArrayAdapter<String> solAdaptor8 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, pazarSultanSekiz);
+                    ArrayAdapter<String> solAdaptor8 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, saatler.pazarSultanSekiz);
                     listsol8.setAdapter(solAdaptor8);
                     ListView listsag8 = (ListView) findViewById(R.id.listSag);
-                    ArrayAdapter<String> sagAdaptor8 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, pazarKartalSekiz);
+                    ArrayAdapter<String> sagAdaptor8 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, saatler.pazarKartalSekiz);
                     listsag8.setAdapter(sagAdaptor8);
                     break;
 
@@ -412,10 +321,10 @@ public class MainActivity extends AppCompatActivity {
                     System.out.println("9. sıra");
                     siralar.setText("bugün 9. araba");
                     ListView listsol9 = (ListView) findViewById(R.id.listSol);
-                    ArrayAdapter<String> solAdaptor9 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, pazarSultanDokuz);
+                    ArrayAdapter<String> solAdaptor9 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, saatler.pazarSultanDokuz);
                     listsol9.setAdapter(solAdaptor9);
                     ListView listsag9 = (ListView) findViewById(R.id.listSag);
-                    ArrayAdapter<String> sagAdaptor9 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, pazarKartalDokuz);
+                    ArrayAdapter<String> sagAdaptor9 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, saatler.pazarKartalDokuz);
                     listsag9.setAdapter(sagAdaptor9);
                     break;
 
@@ -423,10 +332,10 @@ public class MainActivity extends AppCompatActivity {
                     System.out.println("10. sıra");
                     siralar.setText("bugün 10. araba");
                     ListView listsol10 = (ListView) findViewById(R.id.listSol);
-                    ArrayAdapter<String> solAdaptor10 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, pazarSultanOn);
+                    ArrayAdapter<String> solAdaptor10 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, saatler.pazarSultanOn);
                     listsol10.setAdapter(solAdaptor10);
                     ListView listsag10 = (ListView) findViewById(R.id.listSag);
-                    ArrayAdapter<String> sagAdaptor10 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, pazarKartalOn);
+                    ArrayAdapter<String> sagAdaptor10 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, saatler.pazarKartalOn);
                     listsag10.setAdapter(sagAdaptor10);
                     break;
 
@@ -434,10 +343,10 @@ public class MainActivity extends AppCompatActivity {
                     System.out.println("1. sıra");
                     siralar.setText("bugün 1. araba");
                     ListView listsol1 = (ListView) findViewById(R.id.listSol);
-                    ArrayAdapter<String> solAdaptor1 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, pazarSultanBir);
+                    ArrayAdapter<String> solAdaptor1 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, saatler.pazarSultanBir);
                     listsol1.setAdapter(solAdaptor1);
                     ListView listsag1 = (ListView) findViewById(R.id.listSag);
-                    ArrayAdapter<String> sagAdaptor1 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, pazarKartalBir);
+                    ArrayAdapter<String> sagAdaptor1 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, saatler.pazarKartalBir);
                     listsag1.setAdapter(sagAdaptor1);
                     break;
 
@@ -445,10 +354,10 @@ public class MainActivity extends AppCompatActivity {
                     System.out.println("2. sıra");
                     siralar.setText("bugün 2. araba");
                     ListView listsol2 = (ListView) findViewById(R.id.listSol);
-                    ArrayAdapter<String> solAdaptor2 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, pazarSultanIki);
+                    ArrayAdapter<String> solAdaptor2 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, saatler.pazarSultanIki);
                     listsol2.setAdapter(solAdaptor2);
                     ListView listsag2 = (ListView) findViewById(R.id.listSag);
-                    ArrayAdapter<String> sagAdaptor2 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, pazarKartalIki);
+                    ArrayAdapter<String> sagAdaptor2 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, saatler.pazarKartalIki);
                     listsag2.setAdapter(sagAdaptor2);
                     break;
 
@@ -456,10 +365,10 @@ public class MainActivity extends AppCompatActivity {
                     System.out.println("3. sıra");
                     siralar.setText("bugün 3. araba");
                     ListView listsol3 = (ListView) findViewById(R.id.listSol);
-                    ArrayAdapter<String> solAdaptor3 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, pazarSultanUc);
+                    ArrayAdapter<String> solAdaptor3 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, saatler.pazarSultanUc);
                     listsol3.setAdapter(solAdaptor3);
                     ListView listsag3 = (ListView) findViewById(R.id.listSag);
-                    ArrayAdapter<String> sagAdaptor3 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, pazarKartalUc);
+                    ArrayAdapter<String> sagAdaptor3 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, saatler.pazarKartalUc);
                     listsag3.setAdapter(sagAdaptor3);
                     break;
 
@@ -467,10 +376,10 @@ public class MainActivity extends AppCompatActivity {
                     System.out.println("4. sıra");
                     siralar.setText("bugün 4. araba");
                     ListView listsol4 = (ListView) findViewById(R.id.listSol);
-                    ArrayAdapter<String> solAdaptor4 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, pazarSultanDort);
+                    ArrayAdapter<String> solAdaptor4 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, saatler.pazarSultanDort);
                     listsol4.setAdapter(solAdaptor4);
                     ListView listsag4 = (ListView) findViewById(R.id.listSag);
-                    ArrayAdapter<String> sagAdaptor4 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, pazarKartalDort);
+                    ArrayAdapter<String> sagAdaptor4 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, saatler.pazarKartalDort);
                     listsag4.setAdapter(sagAdaptor4);
                     break;
 
@@ -478,10 +387,10 @@ public class MainActivity extends AppCompatActivity {
                     System.out.println("5. sıra");
                     siralar.setText("bugün 5. araba");
                     ListView listsol5 = (ListView) findViewById(R.id.listSol);
-                    ArrayAdapter<String> solAdaptor5 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, pazarSultanBes);
+                    ArrayAdapter<String> solAdaptor5 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, saatler.pazarSultanBes);
                     listsol5.setAdapter(solAdaptor5);
                     ListView listsag5 = (ListView) findViewById(R.id.listSag);
-                    ArrayAdapter<String> sagAdaptor5 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, pazarKartalBes);
+                    ArrayAdapter<String> sagAdaptor5 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, saatler.pazarKartalBes);
                     listsag5.setAdapter(sagAdaptor5);
                     break;
 
@@ -489,10 +398,10 @@ public class MainActivity extends AppCompatActivity {
                     System.out.println("6. sıra");
                     siralar.setText("bugün 6. araba");
                     ListView listsol6 = (ListView) findViewById(R.id.listSol);
-                    ArrayAdapter<String> solAdaptor6 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, pazarSultanAlti);
+                    ArrayAdapter<String> solAdaptor6 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, saatler.pazarSultanAlti);
                     listsol6.setAdapter(solAdaptor6);
                     ListView listsag6 = (ListView) findViewById(R.id.listSag);
-                    ArrayAdapter<String> sagAdaptor6 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, pazarKartalAlti);
+                    ArrayAdapter<String> sagAdaptor6 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, saatler.pazarKartalAlti);
                     listsag6.setAdapter(sagAdaptor6);
                     break;
 
@@ -500,10 +409,10 @@ public class MainActivity extends AppCompatActivity {
                     System.out.println("7. sıra");
                     siralar.setText("bugün 7. araba");
                     ListView listsol7 = (ListView) findViewById(R.id.listSol);
-                    ArrayAdapter<String> solAdaptor7 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, pazarSultanYedi);
+                    ArrayAdapter<String> solAdaptor7 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, saatler.pazarSultanYedi);
                     listsol7.setAdapter(solAdaptor7);
                     ListView listsag7 = (ListView) findViewById(R.id.listSag);
-                    ArrayAdapter<String> sagAdaptor7 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, pazarKartalYedi);
+                    ArrayAdapter<String> sagAdaptor7 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, saatler.pazarKartalYedi);
                     listsag7.setAdapter(sagAdaptor7);
                     break;
 
@@ -517,10 +426,10 @@ public class MainActivity extends AppCompatActivity {
                     System.out.println("8. sıra");
                     siralar.setText("bugün 8. araba");
                     ListView listsol8 = (ListView) findViewById(R.id.listSol);
-                    ArrayAdapter<String> solAdaptor8 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, cumartesiSultanSekiz);
+                    ArrayAdapter<String> solAdaptor8 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, saatler.cumartesiSultanSekiz);
                     listsol8.setAdapter(solAdaptor8);
                     ListView listsag8 = (ListView) findViewById(R.id.listSag);
-                    ArrayAdapter<String> sagAdaptor8 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, cumartesiKartalSekiz);
+                    ArrayAdapter<String> sagAdaptor8 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, saatler.cumartesiKartalSekiz);
                     listsag8.setAdapter(sagAdaptor8);
                     break;
 
@@ -528,10 +437,10 @@ public class MainActivity extends AppCompatActivity {
                     System.out.println("9. sıra");
                     siralar.setText("bugün 9. araba");
                     ListView listsol9 = (ListView) findViewById(R.id.listSol);
-                    ArrayAdapter<String> solAdaptor9 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, cumartesiSultanDokuz);
+                    ArrayAdapter<String> solAdaptor9 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, saatler.cumartesiSultanDokuz);
                     listsol9.setAdapter(solAdaptor9);
                     ListView listsag9 = (ListView) findViewById(R.id.listSag);
-                    ArrayAdapter<String> sagAdaptor9 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, cumartesiKartalDokuz);
+                    ArrayAdapter<String> sagAdaptor9 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, saatler.cumartesiKartalDokuz);
                     listsag9.setAdapter(sagAdaptor9);
                     break;
 
@@ -539,10 +448,10 @@ public class MainActivity extends AppCompatActivity {
                     System.out.println("10. sıra");
                     siralar.setText("bugün 10. araba");
                     ListView listsol10 = (ListView) findViewById(R.id.listSol);
-                    ArrayAdapter<String> solAdaptor10 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, cumartesiSultanOn);
+                    ArrayAdapter<String> solAdaptor10 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, saatler.cumartesiSultanOn);
                     listsol10.setAdapter(solAdaptor10);
                     ListView listsag10 = (ListView) findViewById(R.id.listSag);
-                    ArrayAdapter<String> sagAdaptor10 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, cumartesiKartalOn);
+                    ArrayAdapter<String> sagAdaptor10 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, saatler.cumartesiKartalOn);
                     listsag10.setAdapter(sagAdaptor10);
                     break;
 
@@ -550,10 +459,10 @@ public class MainActivity extends AppCompatActivity {
                     System.out.println("1. sıra");
                     siralar.setText("bugün 1. araba");
                     ListView listsol1 = (ListView) findViewById(R.id.listSol);
-                    ArrayAdapter<String> solAdaptor1 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, cumartesiSultanBir);
+                    ArrayAdapter<String> solAdaptor1 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, saatler.cumartesiSultanBir);
                     listsol1.setAdapter(solAdaptor1);
                     ListView listsag1 = (ListView) findViewById(R.id.listSag);
-                    ArrayAdapter<String> sagAdaptor1 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, cumartesiKartalBir);
+                    ArrayAdapter<String> sagAdaptor1 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, saatler.cumartesiKartalBir);
                     listsag1.setAdapter(sagAdaptor1);
                     break;
 
@@ -561,10 +470,10 @@ public class MainActivity extends AppCompatActivity {
                     System.out.println("2. sıra");
                     siralar.setText("bugün 2. araba");
                     ListView listsol2 = (ListView) findViewById(R.id.listSol);
-                    ArrayAdapter<String> solAdaptor2 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, cumartesiSultanIki);
+                    ArrayAdapter<String> solAdaptor2 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, saatler.cumartesiSultanIki);
                     listsol2.setAdapter(solAdaptor2);
                     ListView listsag2 = (ListView) findViewById(R.id.listSag);
-                    ArrayAdapter<String> sagAdaptor2 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, cumartesiKartalIki);
+                    ArrayAdapter<String> sagAdaptor2 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, saatler.cumartesiKartalIki);
                     listsag2.setAdapter(sagAdaptor2);
                     break;
 
@@ -572,10 +481,10 @@ public class MainActivity extends AppCompatActivity {
                     System.out.println("3. sıra");
                     siralar.setText("bugün 3. araba");
                     ListView listsol3 = (ListView) findViewById(R.id.listSol);
-                    ArrayAdapter<String> solAdaptor3 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, cumartesiSultanUc);
+                    ArrayAdapter<String> solAdaptor3 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, saatler.cumartesiSultanUc);
                     listsol3.setAdapter(solAdaptor3);
                     ListView listsag3 = (ListView) findViewById(R.id.listSag);
-                    ArrayAdapter<String> sagAdaptor3 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, cumartesiKartalUc);
+                    ArrayAdapter<String> sagAdaptor3 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, saatler.cumartesiKartalUc);
                     listsag3.setAdapter(sagAdaptor3);
                     break;
 
@@ -583,10 +492,10 @@ public class MainActivity extends AppCompatActivity {
                     System.out.println("4. sıra");
                     siralar.setText("bugün 4. araba");
                     ListView listsol4 = (ListView) findViewById(R.id.listSol);
-                    ArrayAdapter<String> solAdaptor4 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, cumartesiSultanDort);
+                    ArrayAdapter<String> solAdaptor4 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, saatler.cumartesiSultanDort);
                     listsol4.setAdapter(solAdaptor4);
                     ListView listsag4 = (ListView) findViewById(R.id.listSag);
-                    ArrayAdapter<String> sagAdaptor4 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, cumartesiKartalDort);
+                    ArrayAdapter<String> sagAdaptor4 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, saatler.cumartesiKartalDort);
                     listsag4.setAdapter(sagAdaptor4);
                     break;
 
@@ -594,10 +503,10 @@ public class MainActivity extends AppCompatActivity {
                     System.out.println("5. sıra");
                     siralar.setText("bugün 5. araba");
                     ListView listsol5 = (ListView) findViewById(R.id.listSol);
-                    ArrayAdapter<String> solAdaptor5 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, cumartesiSultanBes);
+                    ArrayAdapter<String> solAdaptor5 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, saatler.cumartesiSultanBes);
                     listsol5.setAdapter(solAdaptor5);
                     ListView listsag5 = (ListView) findViewById(R.id.listSag);
-                    ArrayAdapter<String> sagAdaptor5 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, cumartesiKartalBes);
+                    ArrayAdapter<String> sagAdaptor5 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, saatler.cumartesiKartalBes);
                     listsag5.setAdapter(sagAdaptor5);
                     break;
 
@@ -605,10 +514,10 @@ public class MainActivity extends AppCompatActivity {
                     System.out.println("6. sıra");
                     siralar.setText("bugün 6. araba");
                     ListView listsol6 = (ListView) findViewById(R.id.listSol);
-                    ArrayAdapter<String> solAdaptor6 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, cumartesiSultanAlti);
+                    ArrayAdapter<String> solAdaptor6 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, saatler.cumartesiSultanAlti);
                     listsol6.setAdapter(solAdaptor6);
                     ListView listsag6 = (ListView) findViewById(R.id.listSag);
-                    ArrayAdapter<String> sagAdaptor6 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, cumartesiKartalAlti);
+                    ArrayAdapter<String> sagAdaptor6 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, saatler.cumartesiKartalAlti);
                     listsag6.setAdapter(sagAdaptor6);
                     break;
 
@@ -616,10 +525,10 @@ public class MainActivity extends AppCompatActivity {
                     System.out.println("7. sıra");
                     siralar.setText("bugün 7. araba");
                     ListView listsol7 = (ListView) findViewById(R.id.listSol);
-                    ArrayAdapter<String> solAdaptor7 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, cumartesiSultanYedi);
+                    ArrayAdapter<String> solAdaptor7 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, saatler.cumartesiSultanYedi);
                     listsol7.setAdapter(solAdaptor7);
                     ListView listsag7 = (ListView) findViewById(R.id.listSag);
-                    ArrayAdapter<String> sagAdaptor7 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, cumartesiKartalYedi);
+                    ArrayAdapter<String> sagAdaptor7 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, saatler.cumartesiKartalYedi);
                     listsag7.setAdapter(sagAdaptor7);
                     break;
 
