@@ -38,12 +38,19 @@ public class MainActivity extends AppCompatActivity {
         SimpleDateFormat bugun = new SimpleDateFormat("D");
         String yilgun = bugun.format(tarih);
 
+
         int yilHane = yilgun.length();
         String yilSonRakam = yilgun.substring(yilHane - 1);
         int yilHaneİnt = Integer.parseInt(yilSonRakam);
         TextView siralar = (TextView) findViewById(R.id.sira);
         TextView haftaGunler = (TextView) findViewById(R.id.gun);
         TextView arac = (TextView) findViewById(R.id.arac);
+
+
+        System.out.println("haftanın günü rakam: " + haftaGunalSon);
+        System.out.println("yıl günü: " + yilgun);
+        System.out.println("yıl hane: " + yilHane);
+        System.out.println("yil son rakamı: " + yilSonRakam);
 
         sharedPreferences = this.getSharedPreferences("com.example.a132c", Context.MODE_PRIVATE);
         aracKod = sharedPreferences.getInt("arackod", 0);
@@ -56,76 +63,76 @@ public class MainActivity extends AppCompatActivity {
             startActivity(intent);
             finish();
         } else if (aracKod == 780) {
-            int deger = (yilHaneİnt + 10) - 1;
-            int degerLenght = String.valueOf(deger).length();
-            String degerSonRakam = String.valueOf(deger).substring(degerLenght - 1);
-            System.out.println("çalıştığı sıra: " + deger + "uzunluk. " + degerLenght);
+            int gun = (yilHaneİnt + 10) - 1;
+            int gunLenght = String.valueOf(gun).length();
+            String degerSonRakam = String.valueOf(gun).substring(gunLenght - 1);
+            System.out.println("çalıştığı sıra: " + gun + "uzunluk. " + gunLenght);
             System.out.println("değer son rakam: " + degerSonRakam);
             aracSiraDeger = Integer.parseInt(degerSonRakam);
 
         } else if (aracKod == 781) {
-            int deger = (yilHaneİnt + 10) -0 ;
-            int degerLenght = String.valueOf(deger).length();
-            String degerSonRakam = String.valueOf(deger).substring(degerLenght - 1);
-            System.out.println("çalıştığı sıra: " + deger + "uzunluk. " + degerLenght);
+            int gun = (yilHaneİnt + 10) -0 ;
+            int degerLenght = String.valueOf(gun).length();
+            String degerSonRakam = String.valueOf(gun).substring(degerLenght - 1);
+            System.out.println("çalıştığı sıra: " + gun + "uzunluk. " + degerLenght);
             System.out.println("değer son rakam: " + degerSonRakam);
             aracSiraDeger = Integer.parseInt(degerSonRakam);
 
         } else if (aracKod == 782) {
-            int deger = (yilHaneİnt + 10) - 9;
-            int degerLenght = String.valueOf(deger).length();
-            String degerSonRakam = String.valueOf(deger).substring(degerLenght - 1);
-            System.out.println("çalıştığı sıra: " + deger + " uzunluk: " + degerLenght);
+            int gun = (yilHaneİnt + 10) - 9;
+            int degerLenght = String.valueOf(gun).length();
+            String degerSonRakam = String.valueOf(gun).substring(degerLenght - 1);
+            System.out.println("çalıştığı sıra: " + gun + " uzunluk: " + degerLenght);
             System.out.println("değer son rakam: " + degerSonRakam);
             aracSiraDeger = Integer.parseInt(degerSonRakam);
         } else if (aracKod == 783) {
-            int deger = (yilHaneİnt + 10) - 8;
-            int degerLenght = String.valueOf(deger).length();
-            String degerSonRakam = String.valueOf(deger).substring(degerLenght - 1);
-            System.out.println("çalıştığı sıra: " + deger + "uzunluk. " + degerLenght);
+            int gun = (yilHaneİnt + 10) - 8;
+            int degerLenght = String.valueOf(gun).length();
+            String degerSonRakam = String.valueOf(gun).substring(degerLenght - 1);
+            System.out.println("çalıştığı sıra: " + gun + "uzunluk. " + degerLenght);
             System.out.println("değer son rakam: " + degerSonRakam);
             aracSiraDeger = Integer.parseInt(degerSonRakam);
         } else if (aracKod == 784) {
-            int deger = (yilHaneİnt + 10) - 7;
-            int degerLenght = String.valueOf(deger).length();
-            String degerSonRakam = String.valueOf(deger).substring(degerLenght - 1);
-            System.out.println("çalıştığı sıra: " + deger + "uzunluk. " + degerLenght);
+            int gun = (yilHaneİnt + 10) - 7;
+            int degerLenght = String.valueOf(gun).length();
+            String degerSonRakam = String.valueOf(gun).substring(degerLenght - 1);
+            System.out.println("çalıştığı sıra: " + gun + "uzunluk. " + degerLenght);
             System.out.println("değer son rakam: " + degerSonRakam);
             aracSiraDeger = Integer.parseInt(degerSonRakam);
         } else if (aracKod == 785) {
-            int deger = (yilHaneİnt + 10) - 6;
-            int degerLenght = String.valueOf(deger).length();
-            String degerSonRakam = String.valueOf(deger).substring(degerLenght - 1);
-            System.out.println("çalıştığı sıra: " + deger + "uzunluk. " + degerLenght);
+            int gun = (yilHaneİnt + 10) - 6;
+            int degerLenght = String.valueOf(gun).length();
+            String degerSonRakam = String.valueOf(gun).substring(degerLenght - 1);
+            System.out.println("çalıştığı sıra: " + gun + "uzunluk. " + degerLenght);
             System.out.println("değer son rakam: " + degerSonRakam);
             aracSiraDeger = Integer.parseInt(degerSonRakam);
         } else if (aracKod == 786) {
-            int deger = (yilHaneİnt + 10) - 5;
-            int degerLenght = String.valueOf(deger).length();
-            String degerSonRakam = String.valueOf(deger).substring(degerLenght - 1);
-            System.out.println("çalıştığı sıra: " + deger + "uzunluk. " + degerLenght);
+            int gun = (yilHaneİnt + 10) - 5;
+            int degerLenght = String.valueOf(gun).length();
+            String degerSonRakam = String.valueOf(gun).substring(degerLenght - 1);
+            System.out.println("çalıştığı sıra: " + gun + "uzunluk. " + degerLenght);
             System.out.println("değer son rakam: " + degerSonRakam);
             aracSiraDeger = Integer.parseInt(degerSonRakam);
         } else if (aracKod == 787) {
-            int deger = (yilHaneİnt + 10) - 4;
-            int degerLenght = String.valueOf(deger).length();
-            String degerSonRakam = String.valueOf(deger).substring(degerLenght - 1);
-            System.out.println("çalıştığı sıra: " + deger + "uzunluk. " + degerLenght);
+            int gun = (yilHaneİnt + 10) - 4;
+            int degerLenght = String.valueOf(gun).length();
+            String degerSonRakam = String.valueOf(gun).substring(degerLenght - 1);
+            System.out.println("çalıştığı sıra: " + gun + "uzunluk. " + degerLenght);
             System.out.println("değer son rakam: " + degerSonRakam);
             aracSiraDeger = Integer.parseInt(degerSonRakam);
 
         } else if (aracKod == 788) {
-            int deger = (yilHaneİnt + 10) - 3;
-            int degerLenght = String.valueOf(deger).length();
-            String degerSonRakam = String.valueOf(deger).substring(degerLenght - 1);
-            System.out.println("çalıştığı sıra: " + deger + "uzunluk. " + degerLenght);
+            int gun = (yilHaneİnt + 10) - 3;
+            int degerLenght = String.valueOf(gun).length();
+            String degerSonRakam = String.valueOf(gun).substring(degerLenght - 1);
+            System.out.println("çalıştığı sıra: " + gun + "uzunluk. " + degerLenght);
             System.out.println("değer son rakam: " + degerSonRakam);
             aracSiraDeger = Integer.parseInt(degerSonRakam);
         } else if (aracKod == 789) {
-            int deger = (yilHaneİnt + 10) - 2;
-            int degerLenght = String.valueOf(deger).length();
-            String degerSonRakam = String.valueOf(deger).substring(degerLenght - 1);
-            System.out.println("çalıştığı sıra: " + deger + "uzunluk. " + degerLenght);
+            int gun = (yilHaneİnt + 10) - 2;
+            int degerLenght = String.valueOf(gun).length();
+            String degerSonRakam = String.valueOf(gun).substring(degerLenght - 1);
+            System.out.println("çalıştığı sıra: " + gun + "uzunluk. " + degerLenght);
             System.out.println("değer son rakam: " + degerSonRakam);
             aracSiraDeger = Integer.parseInt(degerSonRakam);
 
@@ -181,10 +188,6 @@ public class MainActivity extends AppCompatActivity {
         }
 
 
-        System.out.println("haftanın günü rakam: " + haftaGunalSon);
-        System.out.println("yıl günü: " + yilgun);
-        System.out.println("yıl hane: " + yilHane);
-        System.out.println("yil son rakamı: " + yilSonRakam);
 
         if (haftaUcDeger == "haftaici"){
             System.out.println("hafta içine girdi");
@@ -536,8 +539,9 @@ public class MainActivity extends AppCompatActivity {
         }
 
     }
+    public void yarin(){
 
-
+    }
     public void setting1(View view) {
         System.out.println("bastı");
         Intent intent = new Intent(getApplicationContext(), setting.class);
