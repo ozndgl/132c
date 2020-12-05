@@ -14,7 +14,7 @@ import android.widget.Toast;
 
 import com.example.a132c.R;
 
-public class setting extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
+public class SettingsActivity extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
     SharedPreferences sharedPreferences;
     String secilen;
     int aracKodint;
@@ -23,11 +23,11 @@ public class setting extends AppCompatActivity implements AdapterView.OnItemSele
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_setting);
 
-        sharedPreferences = this.getSharedPreferences("com.example.a132c", Context.MODE_PRIVATE);
+        sharedPreferences = this.getSharedPreferences("ozndgl.ozandgl.a132c", Context.MODE_PRIVATE);
         aracKodint = sharedPreferences.getInt("aracKod",0);
 
         Spinner spinner = findViewById(R.id.spinner1);
-        ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this, R.array.numbers, android.R.layout.simple_spinner_item);
+        ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this, R.array.numbers, android.R.layout.simple_list_item_1);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spinner.setAdapter(adapter);
         spinner.setOnItemSelectedListener(this);

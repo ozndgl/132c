@@ -8,7 +8,7 @@
 
     <TextView
         android:id="@+id/sira"
-        android:layout_width="396dp"
+        android:layout_width="300dp"
         android:layout_height="35dp"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
@@ -21,7 +21,7 @@
 
     <TextView
         android:id="@+id/gun"
-        android:layout_width="396dp"
+        android:layout_width="300dp"
         android:layout_height="35dp"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
@@ -45,8 +45,8 @@
 
     <ListView
         android:id="@+id/listSol"
-        android:layout_width="174dp"
-        android:layout_height="350dp"
+        android:layout_width="160dp"
+        android:layout_height="250dp"
         android:layout_marginStart="16dp"
         app:layout_constraintEnd_toStartOf="@+id/listSag"
         app:layout_constraintStart_toStartOf="parent"
@@ -54,8 +54,8 @@
 
     <ListView
         android:id="@+id/listSag"
-        android:layout_width="174dp"
-        android:layout_height="350dp"
+        android:layout_width="160dp"
+        android:layout_height="250dp"
         android:layout_marginEnd="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/listSol"
@@ -63,7 +63,7 @@
 
     <TextView
         android:id="@+id/arac"
-        android:layout_width="396dp"
+        android:layout_width="300dp"
         android:layout_height="35dp"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
@@ -76,7 +76,7 @@
 
     <TextView
         android:id="@+id/ertesiView"
-        android:layout_width="354dp"
+        android:layout_width="300dp"
         android:layout_height="38dp"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"

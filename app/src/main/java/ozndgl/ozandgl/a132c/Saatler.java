@@ -1,6 +1,6 @@
 package ozndgl.ozandgl.a132c;
 
-public class saatler {
+public class Saatler {
 
     //haftaiçi
     public static String[] haftaIciSultanBir = new String[]{"sultanbeyli kalkışı", "5,30", "7,52", "11,12", "14,12", "17,08", "20,35"};
@@ -10,7 +10,7 @@ public class saatler {
     public static String[] haftaIciKartalIki = new String[]{"kartal kalkışı", "06,50", "9,40", "12,57", "15,50", "18,55", "22,20"};
 
     public static String[] haftaIciSultanUc = new String[]{"sultanbeyli kalkışı", "06,05", "08,27", "11,45", "14,53", "17,50"};
-    public static String[] haftaIciKartalUc = new String[]{"kartal kalkışı", "07,10", "10,00", "13,12", "16,08", "19,15"};
+    public static String[] haftaIciKartalUc = new String[]{"kartal kalkışı", "07,10", "10,00", "13,20", "16,08", "19,15"};
 
     public static String[] haftaIciSultanDort = new String[]{"sultanbeyli kalkışı", "06,18", "08,55", "11,58", "15,08", "18,15"};
     public static String[] haftaIciKartalDort = new String[]{"kartal kalkışı", "07,30", "10,20", "13,35", "16,27", "19,35"};
@@ -19,13 +19,13 @@ public class saatler {
     public static String[] haftaIciKartalBes = new String[]{"kartal kalkışı", "07,50", "10,35", "13,50", "16,45", "19,55"};
 
     public static String[] haftaIciSultanAlti = new String[]{"sultanbeyli kalkışı", "06,45", "09,35", "12,30", "15,40", "18,50"};
-    public static String[] haftaIciKartalAlti = new String[]{"kartal kalkışı", "08,07", "10,53", "14,10", "17,05", "20,15"};
+    public static String[] haftaIciKartalAlti = new String[]{"kartal kalkışı", "08,07", "10,53", "14,10", "17,05", "20,10"};
 
     public static String[] haftaIciSultanYedi = new String[]{"sultanbeyli kalkışı", "06,58", "09,53", "12,52", "15,55", "19,15"};
-    public static String[] haftaIciKartalYedi = new String[]{"kartal kalkışı", "08,23", "11,10", "14,30", "17,23", "20,40"};
+    public static String[] haftaIciKartalYedi = new String[]{"kartal kalkışı", "08,23", "11,10", "14,30", "17,23", "20,35"};
 
     public static String[] haftaIciSultanSekiz = new String[]{"sultanbeyli kalkışı", "07,12", "10,15", "13,10", "16,10", "19,35"};
-    public static String[] haftaIciKartalSekiz = new String[]{"kartal kalkışı", "8,40", "11,32", "14,48", "17,40", "21,00"};
+    public static String[] haftaIciKartalSekiz = new String[]{"kartal kalkışı", "8,40", "11,32", "14,48", "17,40", "20,58"};
 
     public static String[] haftaIciSultanDokuz = new String[]{"sultanbeyli kalkışı", "7,25", "10,35", "13,35", "16,28", "19,50"};
     public static String[] haftaIciKartalDokuz = new String[]{"kartal kalkışı", "8,55", "11,55", "15,02", "18,00", "21,20"};

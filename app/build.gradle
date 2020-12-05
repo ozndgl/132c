@@ -12,8 +12,8 @@ android {
         applicationId "ozndgl.ozandgl.a132c"
         minSdkVersion 24
         targetSdkVersion 30
-        versionCode 8
-        versionName '1.7'
+        versionCode 12
+        versionName '2.2'
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
