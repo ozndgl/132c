@@ -247,11 +247,11 @@ public class MainActivity extends AppCompatActivity {
                     listsag8.setAdapter(sagAdaptor8);
                     if((haftaİleri ==3|| haftaİleri ==4|| haftaİleri ==5|| haftaİleri ==6)) {
                         System.out.println(Saatler.haftaIciSultanDokuz[1]);
-                        ertesiGunView.setText("Yarın Kalkış: "+haftaIleriStr+ Saatler.haftaIciSultanDokuz[1]);
+                        ertesiGunView.setText("Yarın: "+haftaIleriStr+" 9. sıra"+ Saatler.haftaIciSultanDokuz[1]+" kalkış");
                     }
                     if((haftaİleri ==7)) {
                         System.out.println(Saatler.cumartesiSultanDokuz[1]);
-                        ertesiGunView.setText("Yarın Kalkış: "+haftaIleriStr+ Saatler.cumartesiSultanDokuz[1]);
+                        ertesiGunView.setText("Yarın: "+haftaIleriStr+" 9. sıra"+ Saatler.cumartesiSultanDokuz[1]+" kalkış");
                     }
 
                     break;
@@ -267,11 +267,11 @@ public class MainActivity extends AppCompatActivity {
                     listsag9.setAdapter(sagAdaptor9);
                     if((haftaİleri ==3|| haftaİleri ==4|| haftaİleri ==5|| haftaİleri ==6)) {
                         System.out.println(Saatler.haftaIciSultanOn[1]);
-                        ertesiGunView.setText("Yarın Kalkış: "+haftaIleriStr+ Saatler.haftaIciSultanOn[1]);
+                        ertesiGunView.setText("Yarın: "+haftaIleriStr+" 10. sıra"+ Saatler.haftaIciSultanOn[1]+" kalkış");
                     }
                     if((haftaİleri ==7)) {
                         System.out.println(Saatler.cumartesiSultanOn[1]);
-                        ertesiGunView.setText("Yarın Kalkış: "+haftaIleriStr+ Saatler.cumartesiSultanOn[1]);
+                        ertesiGunView.setText("Yarın: "+haftaIleriStr+" 10. sıra"+ Saatler.cumartesiSultanOn[1]+" kalkış");
                     }
                     break;
 
@@ -286,11 +286,11 @@ public class MainActivity extends AppCompatActivity {
                     listsag10.setAdapter(sagAdaptor10);
                     if((haftaİleri ==3|| haftaİleri ==4|| haftaİleri ==5|| haftaİleri ==6)) {
                         System.out.println(Saatler.haftaIciSultanBir[1]);
-                        ertesiGunView.setText("Yarın Kalkış: "+haftaIleriStr+ Saatler.haftaIciSultanBir[1]);
+                        ertesiGunView.setText("Yarın: "+haftaIleriStr+" 1. sıra"+ Saatler.haftaIciSultanBir[1]+" kalkış");
                     }
                     if((haftaİleri ==7)) {
                         System.out.println(Saatler.cumartesiSultanBir[1]);
-                        ertesiGunView.setText("Yarın Kalkış: "+haftaIleriStr+ Saatler.cumartesiSultanBir[1]);
+                        ertesiGunView.setText("Yarın: "+haftaIleriStr+" 1. sıra"+ Saatler.cumartesiSultanBir[1]+" kalkış");
                     }
                     break;
 
@@ -305,11 +305,11 @@ public class MainActivity extends AppCompatActivity {
                     listsag1.setAdapter(sagAdaptor1);
                     if((haftaİleri ==3|| haftaİleri ==4|| haftaİleri ==5|| haftaİleri ==6)) {
                         System.out.println(Saatler.haftaIciSultanIki[1]);
-                        ertesiGunView.setText("Yarın Kalkış: "+haftaIleriStr+ Saatler.haftaIciSultanIki[1]);
+                        ertesiGunView.setText("Yarın: "+haftaIleriStr+" 2. sıra"+ Saatler.haftaIciSultanIki[1]+" kalkış");
                     }
                     if((haftaİleri ==7)) {
                         System.out.println(Saatler.cumartesiSultanIki[1]);
-                        ertesiGunView.setText("Yarın Kalkış: "+haftaIleriStr+ Saatler.cumartesiSultanIki[1]);
+                        ertesiGunView.setText("Yarın: "+haftaIleriStr+" 2. sıra"+ Saatler.cumartesiSultanIki[1]+" kalkış");
                     }
                     break;
 
@@ -324,11 +324,11 @@ public class MainActivity extends AppCompatActivity {
                     listsag2.setAdapter(sagAdaptor2);
                     if((haftaİleri ==3|| haftaİleri ==4|| haftaİleri ==5|| haftaİleri ==6)) {
                         System.out.println(Saatler.haftaIciSultanUc[1]);
-                        ertesiGunView.setText("Yarın Kalkış: "+haftaIleriStr+ Saatler.haftaIciSultanUc[1]);
+                        ertesiGunView.setText("Yarın: "+haftaIleriStr+" 3. sıra"+ Saatler.haftaIciSultanUc[1]+" kalkış");
                     }
                     if((haftaİleri ==7)) {
                         System.out.println(Saatler.cumartesiSultanUc[1]);
-                        ertesiGunView.setText("Yarın Kalkış: "+haftaIleriStr+ Saatler.cumartesiSultanUc[1]);
+                        ertesiGunView.setText("Yarın: "+haftaIleriStr+" 3. sıra"+ Saatler.cumartesiSultanUc[1]+" kalkış");
                     }
                     break;
 
@@ -343,11 +343,11 @@ public class MainActivity extends AppCompatActivity {
                     listsag3.setAdapter(sagAdaptor3);
                     if((haftaİleri ==3|| haftaİleri ==4|| haftaİleri ==5|| haftaİleri ==6)) {
                         System.out.println(Saatler.haftaIciSultanDort[1]);
-                        ertesiGunView.setText("Yarın Kalkış: "+haftaIleriStr+ Saatler.haftaIciSultanDort[1]);
+                        ertesiGunView.setText("Yarın: "+haftaIleriStr+" 4. sıra"+ Saatler.haftaIciSultanDort[1]+" kalkış");
                     }
                     if((haftaİleri ==7)) {
                         System.out.println(Saatler.cumartesiSultanDort[1]);
-                        ertesiGunView.setText("Yarın Kalkış: "+haftaIleriStr+ Saatler.cumartesiSultanDort[1]);
+                        ertesiGunView.setText("Yarın: "+haftaIleriStr+" 4. sıra"+ Saatler.cumartesiSultanDort[1]+" kalkış");
                     }
                     break;
 
@@ -362,11 +362,11 @@ public class MainActivity extends AppCompatActivity {
                     listsag4.setAdapter(sagAdaptor4);
                     if((haftaİleri ==3|| haftaİleri ==4|| haftaİleri ==5|| haftaİleri ==6)) {
                         System.out.println(Saatler.haftaIciSultanBes[1]);
-                        ertesiGunView.setText("Yarın Kalkış: "+haftaIleriStr+ Saatler.haftaIciSultanBes[1]);
+                        ertesiGunView.setText("Yarın: "+haftaIleriStr+" 5. sıra"+ Saatler.haftaIciSultanBes[1]+" kalkış");
                     }
                     if((haftaİleri ==7)) {
                         System.out.println(Saatler.cumartesiSultanBes[1]);
-                        ertesiGunView.setText("Yarın Kalkış: "+haftaIleriStr+ Saatler.cumartesiSultanBes[1]);
+                        ertesiGunView.setText("Yarın: "+haftaIleriStr+" 5. sıra"+ Saatler.cumartesiSultanBes[1]+" kalkış");
                     }
                     break;
 
@@ -381,11 +381,11 @@ public class MainActivity extends AppCompatActivity {
                     listsag5.setAdapter(sagAdaptor5);
                     if((haftaİleri ==3|| haftaİleri ==4|| haftaİleri ==5|| haftaİleri ==6)) {
                         System.out.println(Saatler.haftaIciSultanAlti[1]);
-                        ertesiGunView.setText("Yarın Kalkış: "+haftaIleriStr+ Saatler.haftaIciSultanAlti[1]);
+                        ertesiGunView.setText("Yarın: "+haftaIleriStr+" 6. sıra"+ Saatler.haftaIciSultanAlti[1]+" kalkış");
                     }
                     if((haftaİleri ==7)) {
                         System.out.println(Saatler.cumartesiSultanAlti[1]);
-                        ertesiGunView.setText("Yarın Kalkış: "+haftaIleriStr+ Saatler.cumartesiSultanAlti[1]);
+                        ertesiGunView.setText("Yarın: "+haftaIleriStr+" 6. sıra"+ Saatler.cumartesiSultanAlti[1]+" kalkış");
                     }
                     break;
 
@@ -400,11 +400,11 @@ public class MainActivity extends AppCompatActivity {
                     listsag6.setAdapter(sagAdaptor6);
                     if((haftaİleri ==3|| haftaİleri ==4|| haftaİleri ==5|| haftaİleri ==6)) {
                         System.out.println(Saatler.haftaIciSultanYedi[1]);
-                        ertesiGunView.setText("Yarın Kalkış: "+haftaIleriStr+ Saatler.haftaIciSultanYedi[1]);
+                        ertesiGunView.setText("Yarın: "+haftaIleriStr+" 7. sıra"+ Saatler.haftaIciSultanYedi[1]+" kalkış");
                     }
                     if((haftaİleri ==7)) {
                         System.out.println(Saatler.cumartesiSultanYedi[1]);
-                        ertesiGunView.setText("Yarın Kalkış: "+haftaIleriStr+ Saatler.cumartesiSultanYedi[1]);
+                        ertesiGunView.setText("Yarın: "+haftaIleriStr+" 7. sıra"+ Saatler.cumartesiSultanYedi[1]+" kalkış");
                     }
                     break;
 
@@ -419,11 +419,11 @@ public class MainActivity extends AppCompatActivity {
                     listsag7.setAdapter(sagAdaptor7);
                     if((haftaİleri ==3|| haftaİleri ==4|| haftaİleri ==5|| haftaİleri ==6)) {
                         System.out.println(Saatler.haftaIciSultanSekiz[1]);
-                        ertesiGunView.setText("Yarın Kalkış: "+haftaIleriStr+ Saatler.haftaIciSultanSekiz[1]);
+                        ertesiGunView.setText("Yarın: "+haftaIleriStr+" 8. sıra"+ Saatler.haftaIciSultanSekiz[1]+" kalkış");
                     }
                     if((haftaİleri ==7)) {
                         System.out.println(Saatler.cumartesiSultanSekiz[1]);
-                        ertesiGunView.setText("Yarın Kalkış: "+haftaIleriStr+ Saatler.cumartesiSultanSekiz[1]);
+                        ertesiGunView.setText("Yarın: "+haftaIleriStr+" 8. sıra"+ Saatler.cumartesiSultanSekiz[1]+" kalkış");
                     }
                     break;
             }
@@ -441,9 +441,16 @@ public class MainActivity extends AppCompatActivity {
                     ListView listsag8 = (ListView) findViewById(R.id.listSag);
                     ArrayAdapter<String> sagAdaptor8 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, Saatler.pazarKartalSekiz);
                     listsag8.setAdapter(sagAdaptor8);
+
+                    //Integer.parseInt(degerSonRakam);
+
+                    //String denemeStr =Saatler.pazarSultanSekiz[1];
+                    //System.out.println(denemeStr);
+                    //Double deneme55 = Double.parseDouble(Saatler.pazarSultanSekiz[1]);
+
                     if((haftaİleri ==2)) {
                         System.out.println(Saatler.haftaIciSultanDokuz[1]);
-                        ertesiGunView.setText("yarın kalkış: "+haftaIleriStr+ Saatler.haftaIciSultanDokuz[1]);
+                        ertesiGunView.setText("yarın: "+haftaIleriStr+" 9. sıra "+ Saatler.haftaIciSultanDokuz[1]+" kalkış");
                     }
                     break;
 
@@ -458,7 +465,7 @@ public class MainActivity extends AppCompatActivity {
                     listsag9.setAdapter(sagAdaptor9);
                     if((haftaİleri ==2)) {
                         System.out.println(Saatler.haftaIciSultanOn[1]);
-                        ertesiGunView.setText("yarın kalkış: "+haftaIleriStr+ Saatler.haftaIciSultanOn[1]);
+                        ertesiGunView.setText("yarın: "+haftaIleriStr+" 10. sıra"+ Saatler.haftaIciSultanOn[1]+" kalkış");
                     }
 
                     break;
@@ -474,7 +481,7 @@ public class MainActivity extends AppCompatActivity {
                     listsag10.setAdapter(sagAdaptor10);
                     if((haftaİleri ==2)) {
                         System.out.println(Saatler.haftaIciSultanBir[1]);
-                        ertesiGunView.setText("yarın kalkış: "+haftaIleriStr+ Saatler.haftaIciSultanBir[1]);
+                        ertesiGunView.setText("yarın: "+haftaIleriStr+" 1. sıra"+ Saatler.haftaIciSultanBir[1]+" kalkış");
                     }
                     break;
 
@@ -489,7 +496,7 @@ public class MainActivity extends AppCompatActivity {
                     listsag1.setAdapter(sagAdaptor1);
                     if((haftaİleri ==2)) {
                         System.out.println(Saatler.haftaIciSultanIki[1]);
-                        ertesiGunView.setText("Yarın Kalkış: "+haftaIleriStr+ Saatler.haftaIciSultanIki[1]);
+                        ertesiGunView.setText("Yarın: "+haftaIleriStr+" 2. sıra"+ Saatler.haftaIciSultanIki[1]+" kalkış");
                     }
                     break;
 
@@ -504,7 +511,7 @@ public class MainActivity extends AppCompatActivity {
                     listsag2.setAdapter(sagAdaptor2);
                     if((haftaİleri ==2)) {
                         System.out.println(Saatler.haftaIciSultanUc[1]);
-                        ertesiGunView.setText("Yarın Kalkış: "+haftaIleriStr+ Saatler.haftaIciSultanUc[1]);
+                        ertesiGunView.setText("Yarın: "+haftaIleriStr+" 3. sıra"+ Saatler.haftaIciSultanUc[1]+" kalkış");
                     }
                     break;
 
@@ -519,7 +526,7 @@ public class MainActivity extends AppCompatActivity {
                     listsag3.setAdapter(sagAdaptor3);
                     if((haftaİleri ==2)) {
                         System.out.println(Saatler.haftaIciSultanDort[1]);
-                        ertesiGunView.setText("Yarın Kalkış: "+haftaIleriStr+ Saatler.haftaIciSultanDort[1]);
+                        ertesiGunView.setText("Yarın: "+haftaIleriStr+" 4. sıra"+ Saatler.haftaIciSultanDort[1]+" kalkış");
                     }
                     break;
 
@@ -534,7 +541,7 @@ public class MainActivity extends AppCompatActivity {
                     listsag4.setAdapter(sagAdaptor4);
                     if((haftaİleri ==2)) {
                         System.out.println(Saatler.haftaIciSultanBes[1]);
-                        ertesiGunView.setText("Yarın Kalkış: "+haftaIleriStr+ Saatler.haftaIciSultanBes[1]);
+                        ertesiGunView.setText("Yarın: "+haftaIleriStr+" 5. sıra"+ Saatler.haftaIciSultanBes[1]+" kalkış");
                     }
                     break;
 
@@ -549,7 +556,7 @@ public class MainActivity extends AppCompatActivity {
                     listsag5.setAdapter(sagAdaptor5);
                     if((haftaİleri ==2)) {
                         System.out.println(Saatler.haftaIciSultanAlti[1]);
-                        ertesiGunView.setText("Yarın Kalkış: "+haftaIleriStr+ Saatler.haftaIciSultanAlti[1]);
+                        ertesiGunView.setText("Yarın: "+haftaIleriStr+" 6. sıra"+ Saatler.haftaIciSultanAlti[1]+" kalkış");
                     }
                     break;
 
@@ -564,7 +571,7 @@ public class MainActivity extends AppCompatActivity {
                     listsag6.setAdapter(sagAdaptor6);
                     if((haftaİleri ==2)) {
                         System.out.println(Saatler.haftaIciSultanYedi[1]);
-                        ertesiGunView.setText("Yarın Kalkış: "+haftaIleriStr+ Saatler.haftaIciSultanYedi[1]);
+                        ertesiGunView.setText("Yarın: "+haftaIleriStr+" 7. sıra"+ Saatler.haftaIciSultanYedi[1]+" kalkış");
                     }
                     break;
 
@@ -579,7 +586,7 @@ public class MainActivity extends AppCompatActivity {
                     listsag7.setAdapter(sagAdaptor7);
                     if((haftaİleri ==2)) {
                         System.out.println(Saatler.haftaIciSultanSekiz[1]);
-                        ertesiGunView.setText("Yarın Kalkış: "+haftaIleriStr+ Saatler.haftaIciSultanSekiz[1]);
+                        ertesiGunView.setText("Yarın: "+haftaIleriStr+" 8. sıra"+ Saatler.haftaIciSultanSekiz[1]+" kalkış");
                     }
                     break;
 
@@ -600,7 +607,7 @@ public class MainActivity extends AppCompatActivity {
                     listsag8.setAdapter(sagAdaptor8);
                     if((haftaİleri ==1)) {
                         System.out.println(Saatler.pazarSultanDokuz[1]);
-                        ertesiGunView.setText("Yarın Kalkış: "+haftaIleriStr+ Saatler.pazarSultanDokuz[1]);
+                        ertesiGunView.setText("Yarın: "+haftaIleriStr+" 9. sıra"+ Saatler.pazarSultanDokuz[1]+" kalkış");
                     }
                     break;
 
@@ -615,7 +622,7 @@ public class MainActivity extends AppCompatActivity {
                     listsag9.setAdapter(sagAdaptor9);
                     if((haftaİleri ==1)) {
                         System.out.println(Saatler.pazarSultanOn[1]);
-                        ertesiGunView.setText("Yarın Kalkış: "+haftaIleriStr+ Saatler.pazarSultanOn[1]);
+                        ertesiGunView.setText("Yarın: "+haftaIleriStr+" 10. sıra"+ Saatler.pazarSultanOn[1]+" kalkış");
                     }
                     break;
 
@@ -630,7 +637,7 @@ public class MainActivity extends AppCompatActivity {
                     listsag10.setAdapter(sagAdaptor10);
                     if((haftaİleri ==1)) {
                         System.out.println(Saatler.pazarSultanBir[1]);
-                        ertesiGunView.setText("Yarın Kalkış: "+haftaIleriStr+ Saatler.pazarSultanBir[1]);
+                        ertesiGunView.setText("Yarın: "+haftaIleriStr+" 1. sıra"+ Saatler.pazarSultanBir[1]+" kalkış");
                     }
                     break;
 
@@ -645,7 +652,7 @@ public class MainActivity extends AppCompatActivity {
                     listsag1.setAdapter(sagAdaptor1);
                     if((haftaİleri ==1)) {
                         System.out.println(Saatler.pazarSultanIki[1]);
-                        ertesiGunView.setText("Yarın Kalkış: "+haftaIleriStr+ Saatler.pazarSultanIki[1]);
+                        ertesiGunView.setText("Yarın: "+haftaIleriStr+" 2. sıra"+ Saatler.pazarSultanIki[1]+" kalkış");
                     }
                     break;
 
@@ -660,7 +667,7 @@ public class MainActivity extends AppCompatActivity {
                     listsag2.setAdapter(sagAdaptor2);
                     if((haftaİleri ==1)) {
                         System.out.println(Saatler.pazarSultanUc[1]);
-                        ertesiGunView.setText("Yarın Kalkış: "+haftaIleriStr+ Saatler.pazarSultanUc[1]);
+                        ertesiGunView.setText("Yarın: "+haftaIleriStr+" 3. sıra"+ Saatler.pazarSultanUc[1]+" kalkış");
                     }
                     break;
 
@@ -675,7 +682,7 @@ public class MainActivity extends AppCompatActivity {
                     listsag3.setAdapter(sagAdaptor3);
                     if((haftaİleri ==1)) {
                         System.out.println(Saatler.pazarSultanDort[1]);
-                        ertesiGunView.setText("Yarın Kalkış: "+haftaIleriStr+ Saatler.pazarSultanDort[1]);
+                        ertesiGunView.setText("Yarın: "+haftaIleriStr+" 4. sıra"+ Saatler.pazarSultanDort[1]+" kalkış");
                     }
                     break;
 
@@ -690,7 +697,7 @@ public class MainActivity extends AppCompatActivity {
                     listsag4.setAdapter(sagAdaptor4);
                     if((haftaİleri ==1)) {
                         System.out.println(Saatler.pazarSultanBes[1]);
-                        ertesiGunView.setText("Yarın Kalkış: "+haftaIleriStr+ Saatler.pazarSultanBes[1]);
+                        ertesiGunView.setText("Yarın: "+haftaIleriStr+" 5. sıra"+ Saatler.pazarSultanBes[1]+" kalkış");
                     }
                     break;
 
@@ -705,7 +712,7 @@ public class MainActivity extends AppCompatActivity {
                     listsag5.setAdapter(sagAdaptor5);
                     if((haftaİleri ==1)) {
                         System.out.println(Saatler.pazarSultanAlti[1]);
-                        ertesiGunView.setText("Yarın Kalkış: "+haftaIleriStr+ Saatler.pazarSultanAlti[1]);
+                        ertesiGunView.setText("Yarın: "+haftaIleriStr+" 6. sıra"+ Saatler.pazarSultanAlti[1]+" kalkış");
                     }
                     break;
 
@@ -720,7 +727,7 @@ public class MainActivity extends AppCompatActivity {
                     listsag6.setAdapter(sagAdaptor6);
                     if((haftaİleri ==1)) {
                         System.out.println(Saatler.pazarSultanYedi[1]);
-                        ertesiGunView.setText("Yarın Kalkış: "+haftaIleriStr+ Saatler.pazarSultanYedi[1]);
+                        ertesiGunView.setText("Yarın: "+haftaIleriStr+" 7. sıra"+ Saatler.pazarSultanYedi[1]+" kalkış");
                     }
                     break;
 
@@ -735,7 +742,7 @@ public class MainActivity extends AppCompatActivity {
                     listsag7.setAdapter(sagAdaptor7);
                     if((haftaİleri ==1)) {
                         System.out.println(Saatler.pazarSultanSekiz[1]);
-                        ertesiGunView.setText("Yarın Kalkış: "+haftaIleriStr+ Saatler.pazarSultanSekiz[1]);
+                        ertesiGunView.setText("Yarın: "+haftaIleriStr+" 8. sıra"+ Saatler.pazarSultanSekiz[1]+" kalkış");
                     }
                     break;
 
@@ -745,22 +752,10 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-
-
-
-
-
-
-
-
-
-
     public void setting1(View view) {
         System.out.println("ayarlar pencerisi açıldı");
         Intent intent = new Intent(getApplicationContext(), SettingsActivity.class);
         startActivity(intent);
         finish();
-
-
     }
 }
